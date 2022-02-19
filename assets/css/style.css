@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 80vh;
+    border-bottom: 10px solid #aaaaaa;
+}
+.header-black {
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px 60px 10px 60px;
+}
+.fa-globe {
+    position: absolute;
+    margin-left: -30px;
+}
+.menu a {
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.menu select {
+    padding: 8px 22px;
+    appearance: none;
+    background-color: #131313;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 30px;
+    border: 1px solid #aaaaaa;
+}
+.header-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(80vh - 70px);
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+.header-body h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.header-body h2 {
+    margin: 20px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.header-body h3 {
+    margin: 10px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.header-body form {
+    display: flex;
+}
+.header-body input {
+    height: 60px;
+    width: 450px;
+    padding: 10px 10px 10px;
+    outline: none;
+    font-size: 16px;
+}
+.header-body button {
+    color: #fff;
+    border: none;
+    height: 60px;
+    background-color: #e30813;
+    padding: 0px 26px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.section-content {
+    background-color: #000;
+    padding: 70px 45px;
+    color: #fff;
+    display: flex;
+    border-bottom: 10px solid #aaaaaa;
+    align-items: center;
+    justify-content: center;
+}
+.section-text {
+    max-width: 595px;
+    width: 100%;
+}
+.section-title {
+    font-size: 55px;
+}
+.section-content p {
+    font-size: 26px;
+    margin: 20px 0px 5px;
+}
+
+.section-content img {
+    max-width: 530px;
+    width: 100%;
+    display: block;
+}
+
+.faq {
+    background-color: #000;
+    padding: 70px 45px;
+    color: #fff;
+    display: flex;
+    border-bottom: 10px solid #aaaaaa;
+    align-items:  center;
+    flex-direction: column;
+}
+.faq h4 {
+    margin: 10px;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 60px;
+}
+.faq form {
+    display: flex;
+}
+.faq input {
+    height: 60px;
+    width: 450px;
+    padding: 10px 10px 10px;
+    outline: none;
+    font-size: 16px;
+}
+.faq button {
+    color: #fff;
+    border: none;
+    height: 60px;
+    background-color: #e30813;
+    padding: 0px 26px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.faq-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.faq-drop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 815px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.faq-drop-header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    line-height: 70px;
+    background-color: #303030;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.faq-drop-title {
+    font-size: 26px;
+}
+.faq-drop-icon {
+    font-size: 36px;
+}
+.faq-drop-body {
+    padding: 30px;
+    max-width: 815px;
+    width: 100%;
+    background-color: #303030;
+    margin-top: 1px;
+    font-size: 26px;
+    display: none;
+}
+
+footer {
+    padding: 70px 200px 0px;
+    background-color: #000;
+    color: #667575;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .phone {
+    width: 100%;
+    text-align: left;
+}
+
+footer .phone a {
+    color: #667575;
+    text-decoration: none;
+}
+
+footer .phone a:hover {
+    text-decoration: underline;
+}
+
+footer nav {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    margin-right: 70px;
+}
+
+footer nav ul:last-child {
+    margin-right: 0px;
+}
+
+footer nav li a {
+    color: #667575;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer nav li a:hover {
+    text-decoration: underline;
+}
+
+footer select {
+    padding: 8px 22px;
+    appearance: none;
+    background-color: #131313;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 30px;
+    border: 1px solid #aaaaaa;
+    max-width: 110px;
+    margin-bottom: 20px;
+}
+.footer-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:451px) and (max-width: 950px) {
+    .section-content img {
+        max-width: 430px;
+    }
+    .section-title {
+        font-size: 40px;
+    }
+    .section-content p {
+        font-size: 23px;
+    }
+
+    footer {
+        padding: 70px 100px 0px;
+    }
+}
+
+@media (max-width:450px) {
+    header nav {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .logo img{
+        width: 120px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu select {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .header-body input {
+        width: 180px;
+    }
+    .header-body button {
+        font-size: 20px;
+    }
+
+    .section-content {
+        flex-direction: column;
+    }
+    .section-content img {
+        max-width: 430px;
+    }
+    .section-title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .section-content p {
+        font-size: 23px;
+        text-align: center;
+    }
+    .faq-title {
+        text-align: center;
+    }
+    .faq h4 {
+        text-align: center;
+    }
+    .faq input {
+        width: 165px;
+    }
+    .faq button {
+        font-size: 20px;
+    }
+    .faq-drop-title {
+        font-size: 14px;
+    }
+    .faq-drop-icon {
+        font-size: 25px;
+    }
+    .faq-drop-body {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 70px 30px 0px;
+    }
+    
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer nav ul {
+        margin-bottom: 20px;
+    }
+}
